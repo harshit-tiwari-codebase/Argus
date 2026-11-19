@@ -1,0 +1,22 @@
+{
+  "name": "argus",
+  "version": "1.0.0",
+  "description": "AI-native API Gateway with atomic rate limiting, real-time analytics, and a Gemini-powered RAG incident copilot.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-tiwari-codebase/Argus.git"
+  },
+  "keywords": ["api-gateway", "rate-limiting", "redis", "gemini", "observability"],
+  "author": "Harshit Tiwari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harshit-tiwari-codebase/Argus/issues"
+  },
+  "homepage": "https://github.com/harshit-tiwari-codebase/Argus#readme"
+}
