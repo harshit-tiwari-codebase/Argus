@@ -12,11 +12,25 @@
     "type": "git",
     "url": "git+https://github.com/harshit-tiwari-codebase/Argus.git"
   },
-  "keywords": ["api-gateway", "rate-limiting", "redis", "gemini", "observability"],
+  "keywords": [
+    "api-gateway",
+    "rate-limiting",
+    "redis",
+    "gemini",
+    "observability"
+  ],
   "author": "Harshit Tiwari",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/harshit-tiwari-codebase/Argus/issues"
   },
-  "homepage": "https://github.com/harshit-tiwari-codebase/Argus#readme"
+  "homepage": "https://github.com/harshit-tiwari-codebase/Argus#readme",
+  "dependencies": {
+    "ollama": "^0.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
 }
